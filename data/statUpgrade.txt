@@ -1,0 +1,58 @@
+﻿[
+    {
+        "id": "attack",
+        "initCost": "1",
+        "increaseCostExpression": "{value} * ({level} ^ 1)",
+        "increaseStatExpression": "{value} * ({level} ^ 0.8)",
+        "maxLevel": "-1",
+        "iconPath": "sword-ex"
+    },
+    {
+        "id": "hp",
+        "initCost": "1",
+        "increaseCostExpression": "{value} * ({level} ^ 1)",
+        "increaseStatExpression": "{value} * ({level} ^ 0.8)",
+        "maxLevel": "-1",
+        "iconPath": "health-ex"
+    },
+    {
+        "id": "hpRegen",
+        "initCost": "5",
+        "increaseCostExpression": "{value} * ({level} ^ 1)",
+        "increaseStatExpression": "{value} * ({level} ^ 0.4)",
+        "maxLevel": "-1",
+        "iconPath": "health-empty-ex"
+    },
+    {
+        "id": "criticalChance",
+        "initCost": "10",
+        "increaseCostExpression": "{value} * ({level} ^ 1)",
+        "increaseStatExpression": "{value} * ({level} ^ 0.3)",
+        "maxLevel": "-1",
+        "iconPath": "sword-ex"
+    },
+    {
+        "id": "knockback",
+        "initCost": "10",
+        "increaseCostExpression": "{value} * ({level} ^ 1)",
+        "increaseStatExpression": "{value} * ({level} ^ 0.1)",
+        "maxLevel": "1000",
+        "iconPath": "rocket-ex"
+    },
+    {
+        "id": "moveSpeed",
+        "initCost": "100",
+        "increaseCostExpression": "{value} * ({level} ^ 1)",
+        "increaseStatExpression": "{value} * ({level} ^ 0.1)",
+        "maxLevel": "1000",
+        "iconPath": "car-ex"
+    },
+    {
+        "id": "specialMonsterChance",
+        "initCost": "1000",
+        "increaseCostExpression": "{value} * ({level} ^ 1)",
+        "increaseStatExpression": "{value} * ({level} ^ 0.2)",
+        "maxLevel": "1000",
+        "iconPath": ""
+    }
+]

@@ -1,0 +1,107 @@
+﻿[
+    {
+        "id": "playerInitHp",
+        "type": "string",
+        "value": "15"
+    },
+    {
+        "id": "playerInitDamage",
+        "type": "string",
+        "value": "1"
+    },
+    {
+        "id": "playerInitKnockback",
+        "type": "float",
+        "value": "1"
+    },
+    {
+        "id": "playerInitHpRegen",
+        "type": "string",
+        "value": "0.01"
+    },
+    {
+        "id": "playerInitHPRegenCooltime",
+        "type": "float",
+        "value": "1"
+    },
+    {
+        "id": "playerInitCriticalChance",
+        "type": "float",
+        "value": "0.1"
+    },
+    {
+        "id": "playerInitMoveSpeed",
+        "type": "float",
+        "value": "3"
+    },
+    {
+        "id": "nextStageDistance",
+        "type": "float",
+        "value": "20"
+    },
+    {
+        "id": "nextChapterDistance",
+        "type": "float",
+        "value": "200"
+    },
+    {
+        "id": "monsterIncreaseExpression",
+        "type": "string",
+        "value": "{value} * (((({chapter}-1)*1.7) ^1.7) + ({stage}^0.5))"
+    },
+    {
+        "id": "getGoldExpression",
+        "type": "string",
+        "value": "{value} * ({chapter} * 2)"
+    },
+    {
+        "id": "specialMonsterChance",
+        "type": "float",
+        "value": "0.1"
+    },
+    {
+        "id": "rebirthPointColor",
+        "type": "string",
+        "value": "00FFCE"
+    },
+    {
+        "id": "artifactColor",
+        "type": "string",
+        "value": "FFF800"
+    },
+    {
+        "id": "rebirthExpression",
+        "type": "string",
+        "value": "({chapter} - {conditionChapter}) * 10"
+    },
+    {
+        "id": "rebirthConditionChapter",
+        "type": "int",
+        "value": "5"
+    },
+    {
+        "id": "",
+        "type": "",
+        "value": ""
+    },
+    {
+        "id": "",
+        "type": "",
+        "value": ""
+    },
+    {
+        "id": "",
+        "type": "",
+        "value": ""
+    },
+    {
+        "id": "",
+        "type": "",
+        "value": ""
+    },
+    {
+        "id": "",
+        "type": "",
+        "value": ""
+    }
+]
