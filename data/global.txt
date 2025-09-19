@@ -80,6 +80,16 @@
         "value": "5"
     },
     {
+        "id": "oneShotBonusMultiplier",
+        "type": "float",
+        "value": "2"
+    },
+    {
+        "id": "specialMonsterBonusMultiplier",
+        "type": "float",
+        "value": "3"
+    },
+    {
         "id": "",
         "type": "",
         "value": ""
